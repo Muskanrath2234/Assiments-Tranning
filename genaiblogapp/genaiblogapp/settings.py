@@ -38,8 +38,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'genapp',
+    'tinymce',
+    
 ]
 
+TINYMCE_DEFAULT_CONFIG = {
+    'theme': 'silver',
+    'width': 800,
+    'height': 300,
+    'plugins': 'advlist autolink lists link image charmap print preview anchor',
+    'toolbar': 'undo redo | bold italic | alignleft aligncenter alignright | bullist numlist | outdent indent | link image',
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
