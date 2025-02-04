@@ -8,7 +8,7 @@ import re
 # Initialize the LLM
 llm = ChatGroq(
     temperature=0,
-    groq_api_key="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",  # Add your API key
+    groq_api_key="",  # Add your API key
     model_name="deepseek-r1-distill-llama-70b"
 )
 
