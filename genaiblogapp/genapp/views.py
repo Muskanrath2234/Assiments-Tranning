@@ -9,7 +9,7 @@ import re
 llm = ChatGroq(
     temperature=0,
     groq_api_key="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",  # Add your API key
-    model_name="llama3-70b-8192"
+    model_name="deepseek-r1-distill-llama-70b"
 )
 
 def blog_Generator(Blog_Topic, Blog_Keyword, Blog_Tone, Blog_Numberofwords, Blog_Target_audiance):
